@@ -1,0 +1,26 @@
+body {
+  background: #1B1B24 none repeat scroll 0% 0%;
+  background-image: url("background.png");
+  background-repeat: repeat-x;
+  color: white;
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+h1 {
+  text-align: center;
+  font-size: 1.2em;
+}
+ul {
+  list-style: none;
+  font-size: 2em;
+  text-align: center;
+}
+ul li::before {
+  content: "\f00d";
+  color: red;
+}
+.check::before {
+  content: "\f00c";
+  color: green;
+}
+
